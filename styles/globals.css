@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+}
+
+p {
+  color: #1F2937;
+}
+
+@layer base {
+  body {
+    @layer text-gray-800 tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @layer font-bold
+  }
+
+  h1 {
+    @layer text-4xl sm:text-5xl md:text-6xl
+  }
+
+  h2 {
+    @layer text-3xl sm:text-4xl
+  }
+
+  li {
+    @layer cursor-pointer
+  }
+
+  button {
+    @layer shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 text- to-teal-500 text-gray-100
+  }
+}
