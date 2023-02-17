@@ -1,5 +1,4 @@
 {
-  "homepage": "https://franbo10.github.io/portfolio_nextjs",
   "name": "rectify",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -19,7 +16,6 @@
     "@mui/styled-engine-sc": "^5.11.0",
     "@mui/styles": "^5.11.2",
     "firebase": "^9.10.0",
-    "gh-pages": "^5.0.0",
     "moment": "^2.29.4",
     "next": "12.3.1",
     "react": "18.2.0",

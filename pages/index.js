@@ -4,7 +4,6 @@ import { useState } from "react";
 import Contact from "../components/Contact/Contact";
 import Navbar from "../components/Navbar/Navbar";
 import Skills from "@/components/Skills/Skills";
-import Cards from "@/components/Cards/Cards";
 import Header from "@/components/Header/Header";
 import About from "@/components/About";
 
